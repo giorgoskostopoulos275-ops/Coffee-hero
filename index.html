@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Coffee Hero</title>
+        <link rel="stylesheet" href="style.css">
+ 
+        <script>
+            const items =items
+            document.querySelectorAll(".item");
+
+            const observer = new
+            IntersectionObserver(entries => {
+                entries.forEach(entry =>{
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add("show");
+                    }   
+            });
+        }, {
+            threshold: 0.2});
+            items.forEach( item=> {
+                observer.observe(item)
+            });
+        </script>
+    </head>
+    <body>
+        <div class="page">
+        <nav>
+            <div class="logo">☕Coffee Hero</div>
+           <div class="links">
+        <a href="#" class="box">Menu</a>
+        <a href="#" class="box">About</a>
+        <a href="#" class="box">Contact</a>
+        <a href="#" class="box">Services</a>  
+        </div>
+      </nav>
+        <header >
+            
+            <h1>Coffee for Heroes</h1>
+            <p>Enjoy your coffee and be a hero!</p>
+            <button>Order Now</button>
+           
+        </header>
+
+        <section class=" menu" id="menu">
+          <article class="start"> <h2>Our menu</h2>
+  <p class="bio">Premium coffee, freshly prepared and ready to go.
+Choose your favorite espresso drink or take home our freshly roasted beans to enjoy anytime.</p>
+  </article>
+            <article class="item">
+                <img src="high_res_6.webp" alt="espresso">
+                <h2>☕ Espresso</h2>
+               <p>Bold. Pure. Intense.<br>
+Our Espresso is the heart of every great coffee. Crafted from finely ground premium beans and extracted to perfection, each shot delivers a rich aroma, velvety crema, and deep, complex flavor.
+
+</p>
+ <button>Order Now
+ <span>
+    $2.50
+</span>
+ </button>
+            </article>
+
+            <article class="item" >
+                <img src="nespresso-recipes-Latte-Art-Tulip.avif" alt="cappuccino">
+                <h2>☕ Cappuccino</h2>
+                <p>Smooth. Frothy. Comforting.<br>
+A timeless favorite, our Cappuccino blends bold espresso with steamed milk and a thick, airy layer of foam. Balanced and creamy, it’s finished with delicate latte art for a touch of beauty in every cup.</p>
+     <button>Order Now
+    <span class="price">
+   $3.50
+</span>   
+     </button>
+ 
+</article>
+ <article class="item">
+    <img src="s-l400.jpg" alt="Latte">
+    <h2>☕ Latte</h2>
+    <p>Creamy. Smooth. Relaxing.<br>
+Our Latte combines rich espresso with silky steamed milk for a mellow, creamy experience. With a light layer of foam on top, it’s smooth, comforting, and easy to enjoy any time of day.</p>
+ <button>Order Now
+    <span>
+   $3.80
+</span>   
+ </button>
+   
+</article>
+
+<article class="item">
+    <img src="20251103-SEA-PeppermintMocha-RobbyLozano-HERO-41e06fec3099492c8439ab628ac16888.jpg" alt="Mocha">
+    <h2>☕ Mocha</h2>
+    <p>Rich. Chocolatey. Indulgent.
+For those who crave something sweet, our Mocha blends bold espresso with premium chocolate and steamed milk. Topped with whipped cream and a drizzle of chocolate, it’s the perfect balance of coffee and cocoa.</p>
+  <button>Order Now
+    <span>
+ $4.00
+</span> 
+  </button>
+</article>
+        </section>
+        <footer>
+            <div>
+            <h2>Thank you for visiting Coffee Hero!</h2>
+            <p>email: info@coffeehero.com</p>
+            <p>© 2026 Coffee Hero. All rights reserved.<br>Have a good day!</p>
+    </div>
+            <img src="1200x630wa-removebg-preview.png" alt="Coffee Hero Logo">
+            </footer>
+    </div>
+    </body>
+</html>
