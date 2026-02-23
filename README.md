@@ -19,7 +19,7 @@ https://giorgoskostopoulos275-ops.github.io/Coffee-hero/
 ---
 
  📸 Preview
-pCoffee Hero preview preview.png
+[Coffee Hero preview] (images/preview.png)
 
 ---
 
