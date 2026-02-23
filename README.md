@@ -18,11 +18,6 @@ https://giorgoskostopoulos275-ops.github.io/Coffee-hero/
 
 ---
 
- 📸 Preview
-[Coffee Hero preview] (images/preview.png)
-
----
-
  📌 Author
 George Kostopoulos
 Created by George Kostopoulos
