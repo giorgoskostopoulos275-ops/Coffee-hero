@@ -19,11 +19,11 @@ https://giorgoskostopoulos275-ops.github.io/Coffee-hero/
 ---
 
  📸 Preview
-(Add a screenshot of your website here)
+pCoffee Hero preview preview.png
 
 ---
 
  📌 Author
 George Kostopoulos
-Created by [Your Name]
+Created by George Kostopoulos
 
